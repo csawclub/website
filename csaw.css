@@ -8,6 +8,21 @@ body {
   color: #5a5a5a;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Pacifico', cursive;
+  padding-bottom: 8px;
+}
+
+/* CUSTOMIZE THE NAVIGATION
+-------------------------------------------------- */
+
+.nav img {
+    margin-top: 8px;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -18,8 +33,18 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  z-index: 10;
+  background: rgba(50,50,50,.5);
   bottom: 3rem;
+}
+
+.carousel-caption p {
+  margin-bottom: 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
+}
+
+.carousel-caption h1 {
+  font-family: 'Pacifico', cursive;
 }
 
 /* Declare heights because of positioning of img element */
@@ -27,12 +52,19 @@ body {
   height: 32rem;
   background-color: #777;
 }
+
 .carousel-item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
+    position: absolute;
   min-width: 100%;
-  height: 32rem;
+  object-fit: cover;
+}
+
+.second-slide {
+  top: -600px;
+}
+
+.third-slide {
+  top: -200px;
 }
 
 

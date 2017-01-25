@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
 
     <title>CS@W</title>
 
@@ -14,25 +13,45 @@
 
     <!-- Custom styles for this template -->
     <link href="csaw.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Material+Icons" rel="stylesheet">
   </head>
   <body>
 
-    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-primary">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">CS@Whitman Club</a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Events</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Hackathon</a>
+              <a class="dropdown-item" href="#">Code Jams</a>
+              <a class="dropdown-item" href="#">Workshops</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#">Team</a>
           </li>
+        </ul>
+        <ul class="nav navbar-nav float-xs-right">
+          <img height="24" src="https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png" />
+          <li class="nav-item">
+            <a class="nav-link" href="https://csawclub.slack.com">Slack</a>
+          </li>
+          <img height="24" src="http://www.freeiconspng.com/uploads/github-logo-icon-2.png" />
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/farmanrl/csaw">Github</a>
+          </li>
+
         </ul>
       </div>
     </nav>
@@ -45,32 +64,32 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <img class="first-slide" src="http://connect.whitman.edu/s/1673/images/gid2/editor/whitman_logos/wm_below_clock_tower_281u.jpg" alt="First slide">
           <div class="container">
-            <div class="carousel-caption d-none d-md-block text-left">
-              <h1>Example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            <div class="carousel-caption d-none d-md-block text-center">
+              <h1>CS@W</h1>
+              <p>Computer Science @ Whitman Club.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Get started</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img class="second-slide" src="http://www.chupamobile.com/blog/wp-content/uploads/2014/07/app-development.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption d-none d-md-block">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>Build the Future</h1>
+              <p>Become a part of the tech revolution on campus.</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img class="third-slide" src="csaw.gif" alt="Third slide">
           <div class="container">
-            <div class="carousel-caption d-none d-md-block text-right">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <div class="carousel-caption d-none d-md-block text-center">
+              <h1>Come join us</h1>
+              <p>Our club is always open to new members, regardless of background or experience.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up</a></p>
             </div>
           </div>
         </div>
@@ -95,22 +114,19 @@
       <!-- Three columns of text below the carousel -->
       <div class="row">
         <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
+          <i class="material-icons" style="font-size: 144px">lightbulb_outline</i>
+          <h2>Inspiration</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
+          <i class="material-icons" style="font-size: 144px">developer_board</i>
+          <h2>Design</h2>
           <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <i class="material-icons" style="font-size: 144px">important_devices</i>
+          <h2>Development</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -121,11 +137,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">What we're about.</h2>
+          <p class="lead">It is the mission of the Whitman College Student Activities Club to promote awareness and foster interest in Computer Science and programming within the Whitman community, and to foster skills and relationships.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="https://en.yeeply.com/blog/wp-content/uploads/2014/06/developing-apps.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -133,11 +149,11 @@
 
       <div class="row featurette">
         <div class="col-md-7 push-md-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">What we do.</h2>
+          <p class="lead">Meaningful real world applications through projects, workshops, hackathons, and other events and activities related to Computer Science and technology.</p>
         </div>
         <div class="col-md-5 pull-md-7">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="https://www.microtronix-tech.com/images/2016/10/11/app-development.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -145,11 +161,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Where you come in.</h2>
+          <p class="lead">We are looking for students of all backgrounds, interests, and disciplines to join us in developing modern technology to solve problems for all kinds of issues.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-fluid mx-auto" src="http://previews.123rf.com/images/cienpies/cienpies1210/cienpies121000124/16105633-Isolated-diversity-tree-hands-illustration-for-greeting-card-file-layered-for-easy-manipulation-and--Stock-Vector.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -161,7 +177,7 @@
       <!-- FOOTER -->
       <footer>
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2017 CS@Whitman Club.</p>
       </footer>
 
     </div><!-- /.container -->
@@ -173,6 +189,6 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
